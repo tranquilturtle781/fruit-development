@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-https://tranquilturtle781.github.io/development
+https://tranquilturtle781.github.io/fruit-development
 
 ### Goal and Value of the Application
 
