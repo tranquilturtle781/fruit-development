@@ -232,28 +232,28 @@ function App() {
             name="grouped2"
             type="radio"
             id="name"
-            label="Name"
+            label="Name (alphabetical)"
             onChange={() => selectSortType("name")}
           />
           <Form.Check 
             name="grouped2"
             type="radio"
             id="cals"
-            label="Calories"
+            label="Calories (low to high)"
             onChange={() => selectSortType("cals")}
           />
           <Form.Check
             name="grouped2"
             type="radio" 
             id="sug"
-            label="Sugar"
+            label="Sugar (low to high)"
             onChange={() => selectSortType("sug")}
           />
           <Form.Check
             name="grouped2"
             type="radio" 
             id="carb"
-            label="Carbs"
+            label="Carbs (low to high)"
             onChange={() => selectSortType("carb")}
           />
           </Form>
