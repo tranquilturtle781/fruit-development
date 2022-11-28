@@ -94,7 +94,7 @@ function App() {
             label="My favorite fruits"
             onChange={() => switchDisplay()}
           />
-          <p><b>Average sugar content: {favList.length > 0 ? aggVal : null}</b></p>
+          <p><i>Average sugar content: {favList.length > 0 ? aggVal : null}</i></p>
         </Form>
         <h4>Dietaries:</h4>
         <Form>
