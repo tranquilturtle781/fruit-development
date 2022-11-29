@@ -261,7 +261,7 @@ function App() {
         </div>
         <div className="items">
           {displayFavs ? 
-          <FavsList favs={favList} data={fruitData} modifyFavs={modifyFavs}></FavsList> :
+          <FavsList favs={favList} modifyFavs={modifyFavs}></FavsList> :
           sortedData.map((item, index) => (
             <Fruit item={item} changeFavs={modifyFavs} key={index}></Fruit>
           ))}
