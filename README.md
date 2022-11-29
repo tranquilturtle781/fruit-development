@@ -13,9 +13,15 @@ The application has a clear hierarchy, which is created by using both visual ele
 I am using 2 components outside of App.js, a Fruit component, which deals with the information about a single fruit, and a FavsList component, which serves as my aggregator.
 
 ### How Data is Passed Down Through Components
-I pass item and changeFavs into my Fruit component. "item" contains the data for a single fruit. I access different attributes of "item" to create the fruit card in HTML. "changeFavs" allows me to have an onClick functionality of my "add to favorites" button for each fruit. The function that is passed down through this will change a boolean indicating if the fruit is currently a favorite, and change favList and aggVal, two states, appropriately. 
+I pass item and changeFavs into my Fruit component. "item" contains the data for a single fruit. I access different attributes of "item" to create the fruit card in HTML. "changeFavs" allows me to have an onClick functionality of my "add to favorites" button for each fruit. The function that is passed down through this will change a boolean indicating if the fruit is currently a favorite, and change favList and aggVal, two state variables, appropriately. 
 
-My FavsList component receives three different pieces of data: fruitData, all of the fruit data from a json, 
+My FavsList component receives two different pieces of data: favList, the previously mentioned state variable containing the current list of favorite fruits (including all data for each fruit), and the same modification function as Fruit receives, so that users can still remove fruits from their favorites.
 
 ### How the User Triggers State Changes
+I have three state variables that correspond to filtering and sorting: andType, orderType, and sortType. The user triggers changes to these states by selecting or delecting the radio/checkbox options for filtering and sorting.
+
+I also have a state variable, displayFavs, that serves as a toggle between viewing the aggregator (my favorite fruits) and viewing all fruits. Users can trigger a change in this state by selecting or deselecting the "My favorite fruits" checkbox. 
+
+I have two state variables related to my aggregator: favList and aggVal. These are updated whenever a user adds or removes a fruit from their favorites, and thus the state change is trigger by the "add to favorites" and "remove from favorites" buttons.
+
 
