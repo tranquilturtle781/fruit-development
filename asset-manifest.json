@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fruit-development/static/css/main.368d001b.css",
-    "main.js": "/fruit-development/static/js/main.6b220899.js",
+    "main.js": "/fruit-development/static/js/main.f8033f44.js",
     "index.html": "/fruit-development/index.html",
     "main.368d001b.css.map": "/fruit-development/static/css/main.368d001b.css.map",
-    "main.6b220899.js.map": "/fruit-development/static/js/main.6b220899.js.map"
+    "main.f8033f44.js.map": "/fruit-development/static/js/main.f8033f44.js.map"
   },
   "entrypoints": [
     "static/css/main.368d001b.css",
-    "static/js/main.6b220899.js"
+    "static/js/main.f8033f44.js"
   ]
 }
